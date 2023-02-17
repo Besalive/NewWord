@@ -1,0 +1,29 @@
+﻿<Page x:Class="NewWord.View.Pages.Login"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:NewWord.View.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Login">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Column="1">
+            <ComboBox x:Name="CBLogin"  Height="40" ></ComboBox>
+            <Label x:Name="LabelPassword">Пароль</Label>
+            <TextBox x:Name="TBLogin" Height="30" VerticalAlignment="Bottom"></TextBox>
+        </StackPanel>
+        <Button Grid.Column="1" Grid.Row="1" Height="40" Width="170" VerticalAlignment="Top" Click="LoginClick">Login</Button>
+        
+    </Grid>
+</Page>
