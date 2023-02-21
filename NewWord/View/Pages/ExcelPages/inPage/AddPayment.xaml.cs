@@ -24,5 +24,10 @@ namespace NewWord.View.Pages.ExcelPages.inPage
         {
             InitializeComponent();
         }
+
+        private void AddButtonClick(object sender, RoutedEventArgs e)
+        {
+            int count = Convert.ToInt32(CounterAdd.TBValue.Text);
+        }
     }
 }

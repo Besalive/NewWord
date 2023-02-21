@@ -8,11 +8,11 @@
              d:DesignHeight="450" d:DesignWidth="800">
     <Grid>
         <WrapPanel>
-            <TextBox x:Name="TBValue" Width="100" Height="30">
+            <TextBox x:Name="TBValue" Width="100" Height="40">
             </TextBox>
             <StackPanel>
-                <Button x:Name="UpButton" Click="UpClick" Height="15" Width="15"></Button>
-                <Button x:Name="DownButton" Click="DownClick" Height="15" Width="15"></Button>
+                <Button x:Name="UpButton" Click="UpClick" Height="20" Width="20"></Button>
+                <Button x:Name="DownButton" Click="DownClick" Height="20" Width="20"></Button>
             </StackPanel>
         </WrapPanel>
     </Grid>
